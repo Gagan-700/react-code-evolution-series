@@ -7,8 +7,9 @@ export default class ParentComponent extends React.Component {
    console.log(this.props)
  } 
 render(){
+  const msg = "From parents with love";
   return (
-    <Child greetHandler = {this.greetP}/>
+    <Child   greetHandler = {this.greetP}/>
   );
 }
 }
