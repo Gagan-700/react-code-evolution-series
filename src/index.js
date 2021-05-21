@@ -1,6 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import NameList from './NameList';
+import Form from './Form';
 
-import App from "./App";
+import App from './App';
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Form />, document.getElementById('root'));
