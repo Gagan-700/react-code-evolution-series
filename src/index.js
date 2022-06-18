@@ -5,7 +5,8 @@ import Form from './Form';
 import ChildComponent from './ChildComponent';
 import ParentComponent from './ParentComponent'
 import FragmentDemo from './FragmentDemo';
+import Counter from './counter';
 
 import App from './App';
 
-ReactDOM.render(<FragmentDemo />, document.getElementById('root'));
+ReactDOM.render(<Counter/>, document.getElementById('root'));
