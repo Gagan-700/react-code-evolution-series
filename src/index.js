@@ -9,4 +9,4 @@ import Counter from './counter';
 
 import App from './App';
 
-ReactDOM.render(<Counter/>, document.getElementById('root'));
+ReactDOM.render(<NameList/>, document.getElementById('root'));
